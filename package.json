@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot de Telegram para descargar videos",
+  "main": "boot.js",
+  "scripts": {
+    "start": "node boot.js",
+    "log": "node status.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
